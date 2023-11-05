@@ -12,6 +12,8 @@ import Blog from './pages/Blog/Blog';
 import Login from './pages/Login/Login';
 import Registration from './pages/Registration/Registration';
 import AuthProvider from './Provider/AuthProvider';
+import SingleFood from './components/SingleFood/SingleFood';
+import SingleFoods from './components/SingleFood/SingleFoods';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +39,16 @@ const router = createBrowserRouter([
       {
         path:"/reg",
         element: <Registration></Registration>
+      },
+      {
+        path:"/singleFood/:id",
+        element: <SingleFood></SingleFood>,
+        loader: ({params}) => fetch(`http://localhost:5500/foodItems/${params.id}`)
+      },
+      {
+        path:"/singleFoods/:id",
+        element: <SingleFoods></SingleFoods>,
+        loader: ({params}) => fetch(`http://localhost:5500/allFoodItems/${params.id}`)
       },
     ]
   },

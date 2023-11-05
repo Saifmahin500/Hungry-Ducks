@@ -1,0 +1,189 @@
+[
+    {
+      "name": "Spaghetti Carbonara",
+      "image": "https://i.ibb.co/R0y6gsR/authentic-italian-pasta.jpg",
+      "category": "Pasta",
+      "price": 12.99
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "image": "https://i.ibb.co/HtMBD8C/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden.jpg",
+      "category": "Pizza",
+      "price": 14.99
+    },
+    {
+      "name": "Caesar Salad",
+      "image": "https://i.ibb.co/XF9bK3V/top-view-tasty-salad-with-vegetables.jpg",
+      "category": "Salad",
+      "price": 8.99
+    },
+    {
+      "name": "Grilled Salmon",
+      "image": "https://i.ibb.co/9rLRB48/seafood-plate-with-shrimps-mussels-lobsters-served-with-lemon.jpg",
+      "category": "Seafood",
+      "price": 18.99
+    },
+    {
+      "name": "Chicken Tacos",
+      "image": "https://i.ibb.co/DbWf71S/baked-chicken-wings-asian-style-tomatoes-sauce-plate.jpg",
+      "category": "Mexican",
+      "price": 10.99
+    },
+    {
+      "name": "Chocolate Cake",
+      "image": "https://i.ibb.co/RSkHgvL/front-view-chocolate-dessert-glass-with-straw.jpg",
+      "category": "Dessert",
+      "price": 6.99
+    },
+    {
+      "name": "Mushroom Risotto",
+      "image": "https://i.ibb.co/2ckTvqt/Adobe-Stock-562540707-Preview-removebg-preview.png",
+      "category": "Italian",
+      "price": 11.99
+    },
+    {
+      "name": "Sushi Platter",
+      "image": "https://i.ibb.co/860kK8W/download-2.jpg",
+      "category": "Japanese",
+      "price": 24.99
+    },
+    {
+      "name": "Burger with Fries",
+      "image": "https://i.ibb.co/hVdC8P4/delicious-burger-with-many-ingredients-isolated-white-background-tasty-cheeseburger-splash-sauce.jpg",
+      "category": "Burgers",
+      "price": 9.99
+    },
+    {
+      "name": "Shrimp Scampi",
+      "image": "https://i.ibb.co/9rLRB48/seafood-plate-with-shrimps-mussels-lobsters-served-with-lemon.jpg",
+      "category": "Seafood",
+      "price": 15.99
+    },
+    {
+      "name": "Vegetable Stir-Fry",
+      "image": "https://i.ibb.co/hfrwJHp/oo-L4-P9c-BVCxj0-O7-Wvos-Dm-Pa-DY.jpg",
+      "category": "Chinese",
+      "price": 11.99
+    },
+    {
+      "name": "Tiramisu",
+      "image": "https://i.ibb.co/vVmXn39/2-GAipyi-QI9-OUgzlf4-L0-Zln-Voo.jpg",
+      "category": "Dessert",
+      "price": 7.99
+    },
+    {
+      "name": "Chicken Shawarma",
+      "image": "https://i.ibb.co/CBJqRyw/Zd-V6-Pp-Ho-NM8-Hov-RJc-VYbt-K15o.jpg",
+      "category": "Middle Eastern",
+      "price": 13.99
+    },
+    {
+      "name": "BBQ Ribs",
+      "image": "https://i.ibb.co/Wf77hx0/hero-banner.png",
+      "category": "American",
+      "price": 16.99
+    },
+    {
+      "name": "Garden Vegetable Soup",
+      "image": "https://i.ibb.co/gJ64XDw/boiling-cauldron-simmers-hearty-vegetable-soup-recipe-generated-by-ai-188544-10271.jpg",
+      "category": "Soup",
+      "price": 6.99
+    },
+    {
+      "name": "Pancakes with Maple Syrup",
+      "image": "https://i.ibb.co/RPHGkDZ/burger-hamburger-cheeseburger.jpg",
+      "category": "Breakfast",
+      "price": 8.99
+    },
+    {
+      "name": "Sliced Fruit Platter",
+      "image": "https://i.ibb.co/C91YNP4/images-1.jpg",
+      "category": "Healthy",
+      "price": 10.99
+    },
+    {
+      "name": "Lobster Bisque",
+      "image": "https://i.ibb.co/vVmXn39/2-GAipyi-QI9-OUgzlf4-L0-Zln-Voo.jpg",
+      "category": "Soup",
+      "price": 14.99
+    },
+    {
+      "name": "Beef Tacos",
+      "image": "https://i.ibb.co/Wf77hx0/hero-banner.png",
+      "category": "Mexican",
+      "price": 11.99
+    },
+    {
+      "name": "Crispy Fried Chicken",
+      "image": "https://i.ibb.co/CBJqRyw/Zd-V6-Pp-Ho-NM8-Hov-RJc-VYbt-K15o.jpg",
+      "category": "Chicken",
+      "price": 12.99
+    },
+    {
+      "name": "Mango Sorbet",
+      "image": "https://i.ibb.co/QcFry7h/download.jpg",
+      "category": "Dessert",
+      "price": 5.99
+    },
+    {
+      "name": "Eggplant Parmesan",
+      "image": "https://i.ibb.co/LzTG5Md/SBX20211202-HOL-Bevs-Around-World-Fudge-Brownie-Hot-Chocolate.jpg",
+      "category": "Italian",
+      "price": 13.99
+    },
+    {
+      "name": "Beef Stroganoff",
+      "image": "https://i.ibb.co/3hJ7CBJ/DC-202007-0252-EVM-HB-Egg-Mc-Muffin-Coffee-Glass-832x472-1-4-product-tile-desktop.jpg",
+      "category": "Russian",
+      "price": 15.99
+    },
+    {
+      "name": "Cheeseburger",
+      "image": "https://i.ibb.co/PYwn1WH/grilled-beef-burger-with-fries-cheese-tomato-generative-ai.jpg",
+      "category": "Burgers",
+      "price": 10.99
+    },
+    {
+      "name": "Gazpacho",
+      "image": "https://i.ibb.co/gJ64XDw/boiling-cauldron-simmers-hearty-vegetable-soup-recipe-generated-by-ai-188544-10271.jpg",
+      "category": "Soup",
+      "price": 7.99
+    },
+    {
+      "name": "Chocolate Chip Cookies",
+      "image": "https://i.ibb.co/dJLp9wW/images-1.jpg",
+      "category": "Dessert",
+      "price": 4.99
+    },
+    {
+      "name": "Tandoori Chicken",
+      "image": "https://i.ibb.co/2ckTvqt/Adobe-Stock-562540707-Preview-removebg-preview.png",
+      "category": "Indian",
+      "price": 12.99
+    },
+    {
+      "name": "Steak Frites",
+      "image": "https://i.ibb.co/JdPCV7V/images.jpg",
+      "category": "French",
+      "price": 19.99
+    },
+    {
+      "name": "Miso Soup",
+      "image": "https://i.ibb.co/gJ64XDw/boiling-cauldron-simmers-hearty-vegetable-soup-recipe-generated-by-ai-188544-10271.jpg",
+      "category": "Japanese",
+      "price": 5.99
+    },
+    {
+      "name": "Shrimp Linguine",
+      "image": "https://i.ibb.co/R0y6gsR/authentic-italian-pasta.jpg",
+      "category": "Pasta",
+      "price": 16.99
+    },
+    {
+      "name": "Blueberry Pancakes",
+      "image": "https://i.ibb.co/whWcZHw/images.jpg",
+      "category": "Breakfast",
+      "price": 9.99
+    }
+  ]
+  
