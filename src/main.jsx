@@ -14,6 +14,7 @@ import Registration from './pages/Registration/Registration';
 import AuthProvider from './Provider/AuthProvider';
 import SingleFood from './components/SingleFood/SingleFood';
 import SingleFoods from './components/SingleFood/SingleFoods';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 const router = createBrowserRouter([
   {
