@@ -1,0 +1,39 @@
+[
+    {
+      "name": "italian-pasta",
+      "image": "https://i.ibb.co/R0y6gsR/authentic-italian-pasta.jpg",
+      "category": "Pasta",
+      "price": 12.99
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "image": "https://i.ibb.co/HtMBD8C/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden.jpg",
+      "category": "Pizza",
+      "price": 14.99
+    },
+    {
+      "name": "Caesar Salad",
+      "image": "https://i.ibb.co/XF9bK3V/top-view-tasty-salad-with-vegetables.jpg",
+      "category": "Salad",
+      "price": 8.99
+    },
+    {
+      "name": "Grilled Salmon",
+      "image": "https://i.ibb.co/9rLRB48/seafood-plate-with-shrimps-mussels-lobsters-served-with-lemon.jpg",
+      "category": "Seafood",
+      "price": 18.99
+    },
+    {
+      "name": "Chicken Tacos",
+      "image": "https://i.ibb.co/DbWf71S/baked-chicken-wings-asian-style-tomatoes-sauce-plate.jpg",
+      "category": "Mexican",
+      "price": 10.99
+    },
+    {
+      "name": "Chocolate Cake",
+      "image": "https://i.ibb.co/RSkHgvL/front-view-chocolate-dessert-glass-with-straw.jpg",
+      "category": "Dessert",
+      "price": 6.99
+    }
+  ]
+  
