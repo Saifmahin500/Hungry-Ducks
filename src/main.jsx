@@ -15,6 +15,7 @@ import AuthProvider from './Provider/AuthProvider';
 import SingleFood from './components/SingleFood/SingleFood';
 import SingleFoods from './components/SingleFood/SingleFoods';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
+import FoodPurchase from './components/FoodPurchase/FoodPurchase';
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,16 @@ const router = createBrowserRouter([
         path:"/singleFoods/:id",
         element: <SingleFoods></SingleFoods>,
         loader: ({params}) => fetch(`http://localhost:5500/allFoodItems/${params.id}`)
+      },
+      {
+        path:"/FoodPurchase/:id",
+        element: <PrivateRoute><FoodPurchase></FoodPurchase></PrivateRoute>,
+        loader: ({params}) => fetch(`http://localhost:5500/FoodPurchase/${params.id}`)
+      },
+      {
+        path:"/FoodPurchases/:id",
+        element: <PrivateRoute><FoodPurchase></FoodPurchase></PrivateRoute>,
+        loader: ({params}) => fetch(`http://localhost:5500/FoodPurchases/${params.id}`)
       },
     ]
   },

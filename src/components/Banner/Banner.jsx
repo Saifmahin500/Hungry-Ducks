@@ -6,7 +6,7 @@ const Banner = () => {
         <div className="hero min-h-screen ">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 
-                <img src="https://i.ibb.co/2ckTvqt/Adobe-Stock-562540707-Preview-removebg-preview.png" className="max-w-lg rounded-lg shadow-2xl" />
+                <img src="https://i.ibb.co/2ckTvqt/Adobe-Stock-562540707-Preview-removebg-preview.png" className="max-w-lg " />
                 <div>
                     <h1 className="text-5xl font-bold">Indulge Your Taste With <br /> Our Delicious <span className="text-[#53ec62]">Food </span> </h1>
                     <p className="py-6">Where Each Plate Weaves a Story of Culinary <br />Mastery and Passionate Craftsmanship </p>

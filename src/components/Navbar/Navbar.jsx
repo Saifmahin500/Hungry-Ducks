@@ -51,9 +51,7 @@ const Navbar = () => {
                             <NavLink to="/blog" className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "text-[#53ec62]" : ""
                             }><li><a>Blog</a></li></NavLink>
-                            <NavLink to="/login" className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "text-[#53ec62]" : ""
-                            }><li><a>Contracts</a></li></NavLink>
+                           
                         </ul>
                     </div>
 

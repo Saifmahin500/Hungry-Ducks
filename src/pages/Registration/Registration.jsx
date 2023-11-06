@@ -1,10 +1,13 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
+import toast from "react-hot-toast";
 
 
 const Registration = () => {
     const { CreateUser } = useContext(AuthContext);
+    const location = useLocation()
+    const navigate = useNavigate()
     const handleRegistration = e => {
         e.preventDefault();
         const form = e.target;
@@ -19,8 +22,14 @@ const Registration = () => {
         .then(result => {
             const user = result.user;
             console.log(user)
+            toast.success('Successfully SignUp!')
+            navigate(location?.state ? location?.state : "/" )
         })
-        .catch(error => console.log(error))
+        .catch(error =>{
+            console.log(error);
+            toast.error("Password doesn't match");
+        }) 
+
     }
     return (
         <div>
