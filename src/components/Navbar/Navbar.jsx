@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 
 const Navbar = () => {
@@ -51,7 +51,7 @@ const Navbar = () => {
                             <NavLink to="/blog" className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "text-[#53ec62]" : ""
                             }><li><a>Blog</a></li></NavLink>
-                           
+
                         </ul>
                     </div>
 
@@ -79,7 +79,9 @@ const Navbar = () => {
                                                 <p className="font-bold ">Add a Food Item</p>
                                             </li>
                                             <li>
+                                                <Link to={"/MyOrder"}>
                                                 <p className="font-bold ">My Order Food Items</p>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>

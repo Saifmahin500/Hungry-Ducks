@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 
 const FoodPurchase = () => {
     const purchase = useLoaderData()
-    const { name, price, _id } = purchase;
+    const { name, price, _id, image } = purchase;
     const {user} = useContext(AuthContext)
 
     const handlePurchase = e => {
@@ -22,6 +22,7 @@ const FoodPurchase = () => {
         const Order = {
             FoodName: name,
             price: Price,
+            image : image,
             Quantity: Quantity,
             BuyerName: BuyerName,
             BuyerEmail: email,
