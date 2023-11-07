@@ -17,11 +17,13 @@ import SingleFoods from './components/SingleFood/SingleFoods';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
 import FoodPurchase from './components/FoodPurchase/FoodPurchase';
 import MyOrder from './pages/MyOrder/MyOrder';
+import ErrorPage from './pages/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path:"/",

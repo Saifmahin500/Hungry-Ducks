@@ -48,7 +48,7 @@ const FoodPurchase = () => {
     }
     return (
         <div>
-            
+            <h2 className="text-3xl font-bold text-center underline mt-5">Please Confirm Your Food Purchase</h2>
             <div className="card flex-shrink-0 w-full shadow-2xl bg-base-100 my-10">
                 <form onSubmit={handlePurchase } className="card-body">
                     <div className="grid grid-col-1 md:grid-cols-2 gap-6">
