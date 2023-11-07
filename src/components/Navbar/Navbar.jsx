@@ -34,7 +34,7 @@ const Navbar = () => {
                         </div>
                         <div className="flex items-center ">
                             <img src="https://i.ibb.co/YR4G7Md/31351014-ycay-n3m9-220806-removebg-preview.png" className="w-[60px] mr-6" alt="" />
-                            <h3 className="text-2xl font-bold -mx-5 mt-2"><span className="text-[#53ec62] text-3xl font-bold">H</span>ungry <span className="text-[#53ec62]">D</span>ucks</h3>
+                            <h3 className="text-2xl font-bold md:-mx-5 mt-2"><span className="text-[#53ec62] text-3xl font-bold">H</span>ungry <span className="text-[#53ec62]">D</span>ucks</h3>
 
 
                         </div>
@@ -61,8 +61,8 @@ const Navbar = () => {
                                 <div className="flex items-center text-center">
                                     <div className="dropdown dropdown-end">
                                         <div className="flex items-center gap-1">
-                                            <div>
-                                                <p className="font-semibold">{user.email}</p>
+                                            <div className="">
+                                                
                                             </div>
                                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
 
@@ -73,10 +73,17 @@ const Navbar = () => {
                                         </div>
                                         <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
                                             <li>
+                                            <p className=" font-semibold">{user.email}</p>
+                                            </li>
+                                            <br />
+                                            <li>
+
                                                 <p className="font-bold ">My Added Food Items</p>
                                             </li>
                                             <li>
-                                                <p className="font-bold ">Add a Food Item</p>
+                                               <Link to={'/AddFood'}>
+                                               <p className="font-bold ">Add a Food Item</p>
+                                               </Link>
                                             </li>
                                             <li>
                                                 <Link to={"/MyOrder"}>

@@ -13,9 +13,9 @@ const HomeMenu = () => {
     }, [])
     return (
         <div className="max-w-6xl mx-auto">
-            <div className="text-center space-y-4">
+            <div className="md:text-center space-y-4">
                 <h1 className="text-green-400 font-bold">Special Dishes</h1>
-                <h2 className="text-5xl font-bold">Standout Dishes <br /> From Our Menu</h2>
+                <h2 className="text-3xl md:text-5xl font-bold">Standout Dishes <br /> From Our Menu</h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10">
                 {

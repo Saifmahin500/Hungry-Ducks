@@ -18,6 +18,7 @@ import PrivateRoute from './PrivateRoute/PrivateRoute';
 import FoodPurchase from './components/FoodPurchase/FoodPurchase';
 import MyOrder from './pages/MyOrder/MyOrder';
 import ErrorPage from './pages/ErrorPage/ErrorPage';
+import AddFood from './components/AddFood/AddFood';
 
 const router = createBrowserRouter([
   {
@@ -31,7 +32,8 @@ const router = createBrowserRouter([
       },
       {
         path:"/allMenus",
-        element: <AllFoodItems></AllFoodItems>
+        element: <AllFoodItems></AllFoodItems>,
+        loader: () => fetch('http://localhost:5500/FoodItemsCount')
       },
       {
         path:"/blog",
@@ -68,6 +70,10 @@ const router = createBrowserRouter([
       {
         path:"/MyOrder",
         element: <PrivateRoute><MyOrder></MyOrder></PrivateRoute>
+      },
+      {
+        path:"/AddFood",
+        element: <PrivateRoute><AddFood></AddFood></PrivateRoute>
       },
     ]
   },

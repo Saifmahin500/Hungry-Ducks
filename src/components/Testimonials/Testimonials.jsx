@@ -5,13 +5,13 @@ const Testimonials = () => {
         <div>
             <div className="hero min-h-screen ">
                 <div className="hero-content flex-col lg:flex-row">
-                    <div className="w-2/4 relative">
+                    <div className="md:w-2/4 relative">
                         <div className="">
-                            <img src="https://i.ibb.co/ZhSrg8j/chef-presenting-something-white-background-removebg-preview.png" className="max-w-2xl " />
+                            <img src="https://i.ibb.co/ZhSrg8j/chef-presenting-something-white-background-removebg-preview.png" className=  "max-w-sm md:max-w-2xl " />
                         </div>
                             <div className="stats shadow">
 
-                                <div className="stat absolute left-80 top-1/3" >
+                                <div className="stat md:absolute md:left-80  md:top-1/3" >
                                     <div className="stat-title">Total Website Views</div>
                                     <div className="stat-value">79,800</div>
                                     <div className="stat-desc">41% more than last month</div>
@@ -20,7 +20,7 @@ const Testimonials = () => {
                             </div>
                         
                     </div>
-                    <div className="w-2/4 space-y-5">
+                    <div className="md:w-2/4 space-y-5">
                         <p className="text-green-400 font-semibold">Testimonials</p>
                         <h1 className="text-5xl font-bold">What Our Customers <br /> Say About Us</h1>
                         <p className="py-6">“I had the pleasure of dining at Hungry Ducks last night, and <br /> I'm still raving about the experience! The attention to  detail in presentation and service was impeccable”</p>
