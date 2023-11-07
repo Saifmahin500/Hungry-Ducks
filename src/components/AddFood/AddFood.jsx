@@ -21,7 +21,7 @@ const AddFood = () => {
         console.log(FoodItems);
 
 
-        fetch('',{
+        fetch('http://localhost:5500/AddFoodItems',{
             method:'POST',
             headers: {
                 'content-type' : 'application/json'
@@ -31,10 +31,10 @@ const AddFood = () => {
         .then(res => res.json())
         .then(data => {
             console.log(data);
-            if(data.insertedId > 1) {
+            if(data.insertedId) {
                 Swal.fire(
                     'Good job!',
-                    'Your pr0duct added!',
+                    'Your Food is added!',
                     'success'
                 )
                 
@@ -105,7 +105,7 @@ const AddFood = () => {
                 
                 </div>
                 <div className="form-control mt-6">
-                    <input className="btn btn-block btn-success font-bold" type="submit" value="Add Food Items" />
+                    <input className="btn btn-block bg-[#53ec62] font-bold" type="submit" value="Add Food Items" />
                 </div>
             </form>
         </div>

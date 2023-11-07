@@ -1,13 +1,15 @@
 
 import { initializeApp } from "firebase/app";
 
+
+
 const firebaseConfig = {
-  apiKey: "AIzaSyAh1vbwl1__HLQyHWtWGw4WZrq-Bhc2Tj4",
-  authDomain: "hungry-ducks.firebaseapp.com",
-  projectId: "hungry-ducks",
-  storageBucket: "hungry-ducks.appspot.com",
-  messagingSenderId: "978540672670",
-  appId: "1:978540672670:web:682b4d76dcc7dcdb6aad8f"
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId,
 };
 
 // Initialize Firebase

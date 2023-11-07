@@ -90,7 +90,7 @@ const FoodPurchase = () => {
                     </div>
                     </div>
                     <div className="form-control mt-6">
-                        <input className="btn btn-block btn-success font-bold" type="submit" value="Purchase Confirm" />
+                        <input className="btn btn-block bg-[#53ec62] font-bold" type="submit" value="Purchase Confirm" />
                     </div>
                 </form>
             </div>
