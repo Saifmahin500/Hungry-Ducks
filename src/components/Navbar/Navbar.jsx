@@ -78,7 +78,9 @@ const Navbar = () => {
                                             <br />
                                             <li>
 
-                                                <p className="font-bold ">My Added Food Items</p>
+                                              <Link to={"/myAddFood"}> 
+                                              <p className="font-bold ">My Added Food Items</p>
+                                              </Link>
                                             </li>
                                             <li>
                                                <Link to={'/AddFood'}>

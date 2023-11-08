@@ -9,6 +9,8 @@ const MyOrder = () => {
     const [myOrder, setMyOrder] = useState([]);
 
     // const url = `http://localhost:5500/purchaseConfirm?email=${user?.email}`;
+   
+    
     const url = 'http://localhost:5500/purchaseConfirm';
     useEffect(() => {
         fetch(url)
