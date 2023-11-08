@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const MyAddItems = () => {
     const[myAddFood,setMyAddFood] = useState([])
 
-    const url = "http://localhost:5500/AddFoodItems";
+    const url = "http://localhost:5500/AddFoodItems?email=${user?.email}";
     useEffect(() => {
         fetch(url)
         .then(res => res.json())
@@ -14,7 +14,7 @@ const MyAddItems = () => {
     },[])
     return (
         <div>
-            <h3 className="text-5xl font-bold text-center underline mt-4">My Added Food List</h3>
+            <h3 className="text-5xl font-bold text-center underline my-10">My Added Food List</h3>
           <div>
             {
                 myAddFood.map(list => <div key={list} className="card card-side w-1/3 my-10  bg-base-200 shadow-xl">

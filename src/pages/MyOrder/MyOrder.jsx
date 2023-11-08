@@ -1,15 +1,10 @@
-import { useContext, useEffect, useState } from "react";
-import { AuthContext } from "../../Provider/AuthProvider";
+import {  useEffect, useState } from "react";
 import OrderRow from "./OrderRow";
 import Swal from "sweetalert2";
 
 
 const MyOrder = () => {
-    const { user } = useContext(AuthContext);
     const [myOrder, setMyOrder] = useState([]);
-
-    // const url = `http://localhost:5500/purchaseConfirm?email=${user?.email}`;
-   
     
     const url = 'http://localhost:5500/purchaseConfirm';
     useEffect(() => {
