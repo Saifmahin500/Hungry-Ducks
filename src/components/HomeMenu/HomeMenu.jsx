@@ -7,12 +7,12 @@ const HomeMenu = () => {
     const [menus, setMenus] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5500/foodItems')
+        fetch('https://restaurant-website-server-side.vercel.app/foodItems')
             .then(res => res.json())
             .then(data => setMenus(data))
     }, [])
     return (
-        <div className="max-w-6xl mx-auto">
+        <div >
             <div className="md:text-center space-y-4">
                 <h1 className="text-green-400 font-bold">Special Dishes</h1>
                 <h2 className="text-3xl md:text-5xl font-bold">Standout Dishes <br /> From Our Menu</h2>

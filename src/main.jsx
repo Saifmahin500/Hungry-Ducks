@@ -35,7 +35,7 @@ const router = createBrowserRouter([
       {
         path:"/allMenus",
         element: <AllFoodItems></AllFoodItems>,
-        loader: () => fetch('http://localhost:5500/FoodItemsCount')
+        loader: () => fetch('https://restaurant-website-server-side.vercel.app/FoodItemsCount')
       },
       {
         path:"/blog",
@@ -52,22 +52,22 @@ const router = createBrowserRouter([
       {
         path:"/singleFood/:id",
         element: <SingleFood></SingleFood>,
-        loader: ({params}) => fetch(`http://localhost:5500/foodItems/${params.id}`)
+        loader: ({params}) => fetch(`https://restaurant-website-server-side.vercel.app/foodItems/${params.id}`)
       },
       {
         path:"/singleFoods/:id",
         element: <SingleFoods></SingleFoods>,
-        loader: ({params}) => fetch(`http://localhost:5500/allFoodItems/${params.id}`)
+        loader: ({params}) => fetch(`https://restaurant-website-server-side.vercel.app/allFoodItems/${params.id}`)
       },
       {
         path:"/FoodPurchase/:id",
         element: <PrivateRoute><FoodPurchase></FoodPurchase></PrivateRoute>,
-        loader: ({params}) => fetch(`http://localhost:5500/FoodPurchase/${params.id}`)
+        loader: ({params}) => fetch(`https://restaurant-website-server-side.vercel.app/FoodPurchase/${params.id}`)
       },
       {
         path:"/FoodPurchases/:id",
         element: <PrivateRoute><FoodPurchase></FoodPurchase></PrivateRoute>,
-        loader: ({params}) => fetch(`http://localhost:5500/FoodPurchases/${params.id}`)
+        loader: ({params}) => fetch(`https://restaurant-website-server-side.vercel.app/FoodPurchases/${params.id}`)
       },
       {
         path:"/MyOrder",

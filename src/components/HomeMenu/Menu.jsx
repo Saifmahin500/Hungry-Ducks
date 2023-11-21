@@ -6,7 +6,7 @@ const Menu = ({menu}) => {
     return (
         <div>
             <div className="card w-96 bg-base-200  ">
-                <figure><img src={image} className="w-full h-[276px]" alt="food" /></figure>
+                <figure><img src={image} className="md:w-full md:h-[276px]" alt="food" /></figure>
                 <div className="card-body">
                     <h2 className="text-3xl font-semibold ">{name}</h2>
                     <p className="font-medium">Category : {category}</p>

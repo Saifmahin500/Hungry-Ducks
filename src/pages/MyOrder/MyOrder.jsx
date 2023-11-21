@@ -6,7 +6,7 @@ import Swal from "sweetalert2";
 const MyOrder = () => {
     const [myOrder, setMyOrder] = useState([]);
     
-    const url = 'http://localhost:5500/purchaseConfirm';
+    const url = 'https://restaurant-website-server-side.vercel.app/purchaseConfirm';
     useEffect(() => {
         fetch(url)
             .then(res => res.json())
@@ -24,7 +24,7 @@ const MyOrder = () => {
           }).then((result) => {
             if (result.isConfirmed) {
 
-        fetch(`http://localhost:5500/purchaseConfirm/${id}`, {
+        fetch(`https://restaurant-website-server-side.vercel.app/purchaseConfirm/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

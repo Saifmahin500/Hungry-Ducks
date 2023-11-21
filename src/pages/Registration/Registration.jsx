@@ -19,7 +19,7 @@ const Registration = () => {
         console.log(user)
 
         // send data in server
-        fetch("http://localhost:5500/users", {
+        fetch("https://restaurant-website-server-side.vercel.app/users", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

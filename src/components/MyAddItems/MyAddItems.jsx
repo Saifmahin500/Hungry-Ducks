@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const MyAddItems = () => {
     const[myAddFood,setMyAddFood] = useState([])
 
-    const url = "http://localhost:5500/AddFoodItems?email=${user?.email}";
+    const url = "https://restaurant-website-server-side.vercel.app/AddFoodItems?email=${user?.email}";
     useEffect(() => {
         fetch(url)
         .then(res => res.json())

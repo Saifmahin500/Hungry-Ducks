@@ -14,7 +14,7 @@ const AllFoodItems = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5500/allFoodItems?page=${currentPage}&size=${itemsPerPage}`)
+        fetch(`https://restaurant-website-server-side.vercel.app/allFoodItems?page=${currentPage}&size=${itemsPerPage}`)
         .then(result => result.json())
         .then(data => setAllFoodItems(data))
     },[currentPage,itemsPerPage])

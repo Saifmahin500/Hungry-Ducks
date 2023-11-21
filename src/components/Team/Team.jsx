@@ -6,12 +6,12 @@ const Team = () => {
                 <h3 className="text-center text-5xl font-bold my-10">Team Member</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
                     <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-                        <div  className="relative mx-8 mt-4 h-80 overflow-hidden  bg-clip-border text-gray-700 shadow-lg flex justify-center">
-                            <img className="" src="https://i.ibb.co/Z1ByrYZ/337128596-934467024366365-8874635171407067304-n.jpg" alt="profile-picture" />
+                        <div className="relative mx-8 mt-4 h-80 overflow-hidden  bg-clip-border text-gray-700 shadow-lg flex justify-center">
+                            <img className="" src="https://i.ibb.co/gjVJc80/343117493-1352189868687365-7033872965626877650-n.jpg" alt="profile-picture" />
                         </div>
                         <div className="p-6 text-center">
                             <h4 className="mb-2 block font-sans text-2xl font-bold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                                Saif Mahin
+                                Nomayen Hossain
                             </h4>
                             <p className="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-[#f9c03b] antialiased">
                                 Owner
