@@ -7,11 +7,11 @@ const Team = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
                     <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                         <div className="relative mx-8 mt-4 h-80 overflow-hidden  bg-clip-border text-gray-700 shadow-lg flex justify-center">
-                            <img className="" src="https://i.ibb.co/gjVJc80/343117493-1352189868687365-7033872965626877650-n.jpg" alt="profile-picture" />
+                            <img className="" src="https://i.ibb.co/8YXqPYk/IMG-6426-2.jpghttps://i.ibb.co/HnKvsRW/296378494-472721248024460-707262741722012543-n.jpg" alt="profile-picture" />
                         </div>
                         <div className="p-6 text-center">
                             <h4 className="mb-2 block font-sans text-2xl font-bold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                                Nomayen Hossain
+                                Saif Mahin
                             </h4>
                             <p className="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-[#f9c03b] antialiased">
                                 Owner
